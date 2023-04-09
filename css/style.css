@@ -1,0 +1,67 @@
+html {
+   box-sizing: border-box;
+   font-family: "Playfair-Display";
+   line-height: 1.4;
+   font-size: 110%;
+}
+
+*, *::before, *::after {
+   box-sizing: inherit;
+}
+
+
+img {
+   width: 100%;
+}
+
+header {
+   padding: 1.5rem 0;
+}
+
+li {
+   display: inline-block;
+   list-style-type: none;
+}
+
+ul {
+   text-align: center;
+}
+
+h1, h2 {
+   text-align: center;
+   font-style: italic;
+}
+
+a:link {
+   padding: .5em .75em;
+   border-radius: 8px;
+   font-weight: 100;
+}
+
+a:link,
+a:visited {
+   background-color: orange;
+   color: white;
+   border: 2px solid white;
+   text-decoration: none;
+}
+
+a:hover,
+a:focus {
+   background-color: white;
+   color: orange;
+   border: 2px solid orange;
+}
+
+h1, h2, h3 {
+   color: orange;
+}
+
+q {
+   text-indent: 50px;
+   text-shadow: 2px 2px white;
+}
+
+body {
+   margin: 1.5rem;
+}
