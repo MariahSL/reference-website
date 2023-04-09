@@ -6,19 +6,32 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Web Design 1 Reference Site</title>
 </head>
+
+<!--This will be the beginning of all content-->
+
 <body>
-   <header>
+
+   <!--This will be the navigation-->
+
+   <header role="banner">
+      <ul>
+         <li><a href="#nav">Skip to navigation</a></li>
+         <li><a href="#main">Skip to main content</a></li>
+      </ul>
       <h1>Indigenous Peoples of Canada</h1>
-      <nav>
+      <nav role="navigation">
          <ul>
             <li><a href="#indigenous-tribes">Indigenous Tribes</a></li>
             <li><a href="#language-families">Language Families</a></li>
          </ul>
       </nav>
    </header>
-   <main>
+
+   <!--This will be all written content-->
+
+   <main role="main">
       <article>
-         <img src="images/female-dancer.jpg" alt="">
+         <img src="images/female-dancer.jpg" alt="Fancy Shawl Indigenous Dancer">
          <p>The Indigenous Peoples of Canada have a rich and complex history that dates back thousands of years. The Indigenous Peoples of Canada are made up of <em>many</em> different groups, each with their own unique culture, language, and traditions.</p>
 
          <p>The earliest evidence of human habitation in Canada dates back to around 12,000 BCE. Indigenous Peoples of Canada were the first inhabitants of the land, and their cultures and societies thrived for thousands of years prior to the arrival of European explorers.</p>
@@ -28,7 +41,16 @@
          <p>Throughout the 19th and 20th centuries, the Canadian government implemented policies and practices aimed at assimilating Indigenous Peoples of Canada into Canadian society. These policies included the forced removal of Indigenous children from their families and communities to attend residential schools, where they were stripped of their culture, language, and traditions. The Indian Act of 1876 also imposed strict controls on Indigenous Peoples of Canada, including restricting their ability to own land or participate in political processes.</p>
 
          <p>In recent years, there has been a growing movement to recognize and address the injustices faced by Indigenous Peoples of Canada, including land rights, access to education and healthcare, and cultural preservation. Many Indigenous Peoples of Canada continue to work towards healing and reconciliation with the broader Canadian society, while also seeking to preserve and revitalize their unique cultures and languages.</p>
+
+         <h3>“If we must die, we die defending our rights.” – Sitting Bull</h3
+   >
+         <blockquote>
+            <p>Sitting Bull (1831-1890) was a Hunkpapa Lakota leader who is best known for his role in the defeat of General George Armstrong Custer at the Battle of Little Bighorn in 1876. He was born in what is now South Dakota, and as a young man he distinguished himself as a warrior and became a leader of his people.</p>
+         </blockquote>
       </article>
+
+      <!--This section will be about Indigenous Tribes-->
+
       <section id="indigenous-tribes">
          <h2>Indigenous Tribes</h2>
          <p>Canada is home to a rich and diverse array of Indigenous peoples, including First Nations, Inuit, and Métis. Each group has its own unique culture, traditions, and history.</p>
@@ -40,6 +62,9 @@
          <p>The <b>Métis</b> are Indigenous peoples of mixed European and Indigenous ancestry. They have their own unique culture and history, which developed in the 18th and 19th centuries in the Canadian Prairies and the Great Lakes region. Today, there are more than 600,000 Métis people in Canada.</p>
          <figcaption>It's important to note that Indigenous peoples in Canada have a long history of facing discrimination and marginalization. As a result, there have been ongoing efforts to promote reconciliation and address historical injustices, including the residential school system, which forcibly removed Indigenous children from their families and communities.</figcaption>
       </section>
+
+      <!--This will be about Indigenous Language Families-->
+
       <section id="language-families">
          <h2>Language Families</h2>
          <p>Canada is home to a diverse range of Indigenous languages, belonging to numerous language families. Here are some of the major Indigenous language families of Canada:</p>
@@ -55,8 +80,11 @@
          <q>Indigenous languages are Canada's national treasures. They are our identidy. We simply have to put greater effort into rejuvenating and revitalizing them. It is key to moving forward."<cite>- Perry Bellegarde</cite></q>
       </section>
    </main>
-   <footer>
 
+   <!--This will be the footer-->
+
+   <footer role="contentinfo">
+      <p><small>&copy Indigenous </small></p>
    </footer>
    
 </body>
